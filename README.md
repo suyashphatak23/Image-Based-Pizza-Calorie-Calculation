@@ -1,5 +1,4 @@
 <img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Logo-700x394.png" title="Python" style="width:50%; height:auto" alt="Python logo">
-
 <img src="https://3.bp.blogspot.com/-apoBeWFycKQ/XhKB8fEprwI/AAAAAAAACM4/Sl76yzNSNYwlShIBrheDAum8L9qRtWNdgCLcBGAsYHQ/s1600/colab.png" title="Colab" style="width:50%; height:auto" alt="Colab logo">
 
 # Pizza Image Based Calorie Calculation
@@ -16,7 +15,7 @@
 
 ## Demo Youtube Video
 
-[![IMAGE_ALT](https://img.youtube.com/vi/UmX4kyB2wfg/0.jpg)](https://youtu.be/dcD7ahNxzl4)
+[![IMAGE_ALT](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/Thumb.png)](https://youtu.be/dcD7ahNxzl4)
 
 ## Table of Contents
 
