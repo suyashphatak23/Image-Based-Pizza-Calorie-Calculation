@@ -1,4 +1,22 @@
+<img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Logo-700x394.png" title="Python" style="width:50%; height:auto" alt="Python logo">
+
+<img src="https://3.bp.blogspot.com/-apoBeWFycKQ/XhKB8fEprwI/AAAAAAAACM4/Sl76yzNSNYwlShIBrheDAum8L9qRtWNdgCLcBGAsYHQ/s1600/colab.png" title="Colab" style="width:50%; height:auto" alt="Colab logo">
+
 # Pizza Image Based Calorie Calculation
+
+## Project By:
+
+[Suyash Phatak](https://github.com/suyashphatak23)
+
+[Sayan Sahu](https://github.com/SayanSahu99)
+
+[Sharath Pai](https://github.com/SharathPai)
+
+[Pranhav Vanarote](https://github.com/Pranhav2)
+
+## Demo Youtube Video
+
+[![IMAGE_ALT](https://img.youtube.com/vi/UmX4kyB2wfg/0.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 ## Table of Contents
 
@@ -42,6 +60,10 @@
 * Minimize error of estimated calories.
 
 ## Literature Review
+![Literature Review Table 1](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/Lit_Table_1.png)
+
+![Literature Review Table 2](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/Lit_Table_2.png)
+
 
 ## Research Gaps
 
@@ -67,6 +89,8 @@
 
 * The pizza image is provided as an input to the model and based on the standardized values, the approximate calorie in the entire pizza is found.
 
+![System Architecture](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/Sys_Arch.png)
+
 ## Method
 
 * To identify what’s on the pizza, we need to instance-segment the given food image into the possible food categories.
@@ -89,7 +113,11 @@ Food Area = masked_food_pixel_area / pixels_per_sq
 
 * We then use the outputs from our Mask-RCNN model and implement a simple algorithm that uses these as inputs (the food labels detected, and their counts) to determine the calorific value of the entire image using a simple lookup on the CSV file.
 
+![Calorie Amounts](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/cal_out.PNG)
+
 ## H/W & S/W Specifications
+
+![Specifications](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/h_w.PNG)
 
 ## Result Analysis
 
@@ -107,6 +135,12 @@ Food Area = masked_food_pixel_area / pixels_per_sq
 
 ## Outputs
 
+![Output1](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/output1.png)
+
+![Output2](https://github.com/suyashphatak23/Image-Based-Pizza-Calorie-Calculation/blob/main/README_IMAGES/output2.png)
+
+
+
 ## Future Scope
 
 In the future, this project could be improved where the model would be further enhanced to work for a broader set of images and be more accurate overall. We can also create mobile application or website where user can give input image, and we will get total calories.
@@ -114,11 +148,20 @@ In the future, this project could be improved where the model would be further e
 ## References
 
 <https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight>
+
 <https://www.cdc.gov/obesity/data/obesity-and-covid-19.html>
+
 <https://arxiv.org/pdf/1705.07632.pdf>
+
 <https://arxiv.org/pdf/1811.00982.pdf>
+
 <https://www.site.uottawa.ca/~shervin/pubs/FoodRecognitionDataset-MadiMa.pdf>
+
 <https://cs229.stanford.edu/proj2015/151_report.pdf>
+
 <https://www.calories.info/food/pizza>
+
 <https://www.popsugar.com/fitness/Calories-Pizza-Toppings-19209681>
+
 <https://www.bacinos.com/pizza-calories-nutrition/>
+
